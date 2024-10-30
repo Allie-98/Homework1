@@ -16,6 +16,7 @@ When rqt_image_view is open, to view the image it’s necessary select “/video
 $ros2 run arm_controller talk_list
 
 In another terminal, to publish the joints’ position via command line we use:
+
 $ros2 topic pub JointPositionController/commands std_msgs/msg/Float64MultiArray "{data: [0 ,0, 0, 0]}"
 (you can change the values in data)
 
