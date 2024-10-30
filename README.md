@@ -7,8 +7,8 @@ When rviz2 is open, to visualize the robot it’s necessary set the voice “Fix
 
 
 -To spawn the robot in Gazebo with the use of controllers use the following command:
-$
-ros2 launch arm_gazebo arm_gazebo.launch.py
+
+$ros2 launch arm_gazebo arm_gazebo.launch.py
 
 
 -After spawning the robot in Gazebo, to view the images given by the camera use the following command:
