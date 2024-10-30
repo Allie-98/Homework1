@@ -29,7 +29,7 @@ $ros2 topic pub JointPositionController/commands std_msgs/msg/Float64MultiArray 
 (you can change the values in data)
 
 
--We have added a record of the robot changing its configuration. To rewatch the record, we write on terminal this command:
+-We have added a record of the robot changing its configuration. To rewatch the record,unzip the bag_files folder and write on terminal this command:
 
 $ros2 launch arm_gazebo arm_gazebo.launch.py
 
